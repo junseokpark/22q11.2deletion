@@ -1,0 +1,51 @@
+__default__:
+  account: your_lab_account  # Replace with your O2 account group
+  time: "12:00:00"
+  mem: "8G"
+  cpus-per-task: 1
+  output: "logs/{rule}.{wildcards}.out"
+  error: "logs/{rule}.{wildcards}.err"
+  partition: short
+
+cnvnator:
+  time: "4:00:00"
+  mem: "12G"
+  cpus-per-task: 4
+
+canvas:
+  time: "6:00:00"
+  mem: "10G"
+  cpus-per-task: 4
+
+manta:
+  time: "6:00:00"
+  mem: "16G"
+  cpus-per-task: 8
+  partition: long
+
+lumpy:
+  time: "2:00:00"
+  mem: "6G"
+  cpus-per-task: 2
+
+delly:
+  time: "2:00:00"
+  mem: "6G"
+  cpus-per-task: 2
+
+gatk:
+  time: "12:00:00"
+  mem: "32G"
+  cpus-per-task: 4
+  partition: long
+
+meerkat:
+  time: "24:00:00"
+  mem: "16G"
+  cpus-per-task: 8
+  partition: long
+
+compare_variants:
+  time: "1:00:00"
+  mem: "4G"
+  cpus-per-task: 1
