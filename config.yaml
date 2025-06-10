@@ -1,0 +1,4 @@
+reference: /n/data1/bch/genetics/lee/reference/Homo_sapiens_assembly38.fasta 
+threads: 8
+cnvnator_data_dir: /n/data1/bch/genetics/lee/tools/cnvnator/chrom_fasta/
+gatk_ploidy_dir: /n/data1/bch/genetics/lee/tools/gatk/ploidy_calls/
